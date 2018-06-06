@@ -1,0 +1,25 @@
+@startuml
+title:基于Github的实验管理系统--学生列表顺序图
+actor user
+participant teacher
+participant course
+participant test
+
+user->user :判断用户类型
+alt 如果用户是老师
+user -> course
+course -> test
+test --> user:显示课程所包含的实验信息
+else 如果用户是学生
+==通过老师选课==
+user -> teacher
+teacher ->course
+course --> user:显示课程信息
+==通过课程选课==
+user -> course
+course ->teacher
+
+teacher --> user:显示课程信息
+else 如果用户是未登录游客 不可以看到任何信息
+end
+@enduml

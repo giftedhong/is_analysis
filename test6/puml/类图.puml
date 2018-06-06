@@ -1,0 +1,68 @@
+@startuml
+title 基于GitHub的教务管理平台的类图
+class user {
+    <b>user_id (用户ID)
+        user_name (用户姓名)
+        user_pwd (用户密码)
+        user_git (用户GitHub的名称)
+        last_time(用户最后一次登陆时间)
+}
+class student {
+    <b>stu_id (学号)
+        stu_class(学生班级)
+        stu_grade(学生总成绩)
+        stu_status(能否评分)
+        stu_course(选课情况)
+}
+class teacher {
+    <b>tea_id (教职工号)
+        course_id(课程编号)
+        tea_department (老师所属部门)
+}
+class term {
+    <b>term_id (学期号)
+        term_test(实验集合)
+}
+class test {
+    <b>tset_id (实验编号)
+        course_id(课程编号)
+        test_name (实验名称)
+}
+class course {
+    <b>course_id (课程编号)
+        cou_statu (选课状态)
+        cou_name (课程名称)
+
+}
+class testGrade {
+    <b>tgrade_id (实验成绩编号)
+        test_id (实验编号)
+        grade_1 (界面评分)
+        grade_2 (逻辑评分)
+        grade_3 (一致性评分)
+        grade_4 (数据库评分)
+        grade_total(最终成绩)
+}
+class courseGrade {
+    <b>grade_id (期末成绩编号)
+        course_id(课程编号)
+        grade_normal(平时成绩)
+        grade_test(实验成绩)
+        grade_end(最终成绩)
+}
+
+teacher -|> user
+student -|> user
+
+student "1" -- "n"  courseGrade
+student "n" -- "n"  teacher
+student "1" -- "n"  course
+course "1" -- "n"  teacher
+course "1" -- "n"  test
+test "1" -- "1"  testGrade
+test "n" -- "1"  term
+test "n" -- "1"  courseGrade
+course "1" -- "1"  courseGrade
+
+
+@enduml
