@@ -1,6 +1,6 @@
 # [←](../README.md) “学生列表”用例
 
-##1.用例规约
+## 1.用例规约
 |用例名称|学生列表|
 |-----|-----|
 |功能 | 用列表展示所有学生信息|
@@ -10,11 +10,11 @@
 |主事件流||
 |备选事件流||
 
-##2.业务流程（顺序图）
-###顺序图源码：[PUML文件](../puml/puml学生列表顺序图.puml)
+## 2.业务流程（顺序图）
+### 顺序图源码：[PUML文件](../puml/puml学生列表顺序图.puml)
 ![](../images/png学生列表顺序图.png)
 
-##3.界面设计
+## 3.界面设计
 - 界面参照
     - 游客身份：https://giftedhong.github.io/is_analysis/test6/ui/index.html
     - 老师身份：https://giftedhong.github.io/is_analysis/test6/ui/teacherindex.html
