@@ -1,6 +1,6 @@
 # [←](../README.md) “查看课程”用例
 
-##1.用例规约
+## 1.用例规约
 |用例名称|课程列表|
 |-----|-----|
 |功能 | 用列表展示所有课程信息|
@@ -10,11 +10,11 @@
 |主事件流||
 |备选事件流||
 
-##2.业务流程（顺序图）
+## 2.业务流程（顺序图）
 ###顺序图源码：[PUML文件](../puml/puml课程列表顺序图.puml)
 ![](../images/png课程列表顺序图.png)
 
-##3.界面设计
+## 3.界面设计
 - 界面参照
     - 老师身份：https://giftedhong.github.io/is_analysis/test6/ui/teachercourse.html
     - 学生身份：https://giftedhong.github.io/is_analysis/test6/ui/studentcourse.html
