@@ -19,7 +19,7 @@
     - 老师身份：https://giftedhong.github.io/is_analysis/test6/ui/teachercourse.html
     - 学生身份：https://giftedhong.github.io/is_analysis/test6/ui/studentcourse.html
 - API接口调用
-    - 接口：[获取课程列表](../others/getcourse.md)
+    - 接口：[获取课程列表](../others/getstudent.md)
 
 ## 4. 算法描述
 无
