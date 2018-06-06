@@ -18,7 +18,7 @@
 ![](images/流程图.png)
 
 ## 3.界面设计
-###[参照界面](https://giftedhong.github.io/is_analysis/test6/ui/index.html)：https://giftedhong.github.io/is_analysis/test6/ui/index.html
+* [参照界面](https://giftedhong.github.io/is_analysis/test6/ui/index.html)
 
 ## 4.用例图设计 [源码](puml/用例图.puml)
 ![](images/用例图.png)
@@ -31,19 +31,19 @@
 
 ## 7.用例及界面详细设计
 ####界面中会有多身份使用，希望使用时切换用户以获得更好的体验感，对该基于GitHub的实验管理平台的分析与设计也会有更深入的了解。<br>
-| |用例|界面|
-|-----|---|----|
-|登录|[用例](md/md登录用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/login.html)|
-|登出|[用例](md/md登出用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/logout.html)|
-|学生列表|[用例](md/md学生列表用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/index.html)|
-|课程列表|[用例](md/md课程列表用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/studentcourse.html)|
-|选择课程|[用例](md/md选择课程用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/studentchoose.html)|
-|查看成绩|[用例](md/md查看成绩用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/studentgrade.html)|
-|查看评语|[用例](md/md查看评语用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/studentgrade.html)|
-|评定成绩|[用例](md/md评定成绩用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/teachercorrect.html)|
-|查看信息|[用例](md/md查看信息用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/viewuser.html)|
-|修改信息|[用例](md/md修改信息用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/modifyuser.html)|
-|修改密码|[用例](md/md修改密码用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/modifypwd.html)|
+   | |用例|界面|
+    |-----|---|----|
+    |登录|[用例](md/md登录用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/login.html)|
+    |登出|[用例](md/md登出用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/logout.html)|
+    |学生列表|[用例](md/md学生列表用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/index.html)|
+    |课程列表|[用例](md/md课程列表用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/studentcourse.html)|
+    |选择课程|[用例](md/md选择课程用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/studentchoose.html)|
+    |查看成绩|[用例](md/md查看成绩用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/studentgrade.html)|
+    |查看评语|[用例](md/md查看评语用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/studentgrade.html)|
+    |评定成绩|[用例](md/md评定成绩用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/teachercorrect.html)|
+    |查看信息|[用例](md/md查看信息用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/viewuser.html)|
+    |修改信息|[用例](md/md修改信息用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/modifyuser.html)|
+    |修改密码|[用例](md/md修改密码用例.md)|[界面](https://giftedhong.github.io/is_analysis/test6/ui/modifypwd.html)|
 
 
 
